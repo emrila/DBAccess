@@ -1,0 +1,4 @@
+SELECT *
+FROM Ktillf
+WHERE lärare = 2
+AND lokal = 'Tellus'

@@ -1,0 +1,7 @@
+Vilka lärare har aldrig hållit någon kurs? Visa namnen!
+SELECT lnamn
+FROM Lärare
+WHERE Lärare.lid NOT IN (SELECT lärare FROM Ktillf WHERE lärare = lid)
+
+
+
